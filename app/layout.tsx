@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/shared/header";
+import Head from 'next/head'; 
 
 const nunito = Nunito({ 
   subsets: ['cyrillic'],
@@ -20,12 +21,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <meta name="description" content="Stage shoes website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <body className={nunito.className}>
         <main className="min-h-screen">
           <Header />
           {children}
         </main>
-        </body>
+      </body>
     </html>
   );
 }
