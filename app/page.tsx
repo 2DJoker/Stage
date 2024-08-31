@@ -33,55 +33,123 @@ export default function Home() {
                 {
                   id: 1,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy8.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
                 {
-                  id: 1,
+                  id: 2,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy5.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
                 {
-                  id: 1,
+                  id: 3,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy5.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
                 {
-                  id: 1,
+                  id: 4,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy5.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
                 {
-                  id: 1,
+                  id: 5,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy5.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
                 {
-                  id: 1,
+                  id: 6,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy5.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
                 {
-                  id: 1,
+                  id: 7,
                   name: 'Yeezy 350',
-                  imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I740HkT4t-Flct1qAKcJxRMcSt1guL9mAsyxTQ54a_NjWL-0liaUdbsi0CRWgpikE0w&usqp=CAU',
+                  imageUrl: '/img/yeezy5.png',
                   price: 230,
                   items: [{ price: 230 }],
                 },
-
+                {
+                  id: 8,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
               ]} 
               categoryId={1}
+              />
+              <ProductsGroupList 
+              title="Одежда" 
+              items={[
+                {
+                  id: 1,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy8.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 2,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 3,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 4,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 5,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 6,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 7,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+                {
+                  id: 8,
+                  name: 'Yeezy 350',
+                  imageUrl: '/img/yeezy5.png',
+                  price: 230,
+                  items: [{ price: 230 }],
+                },
+              ]} 
+              categoryId={2}
               />
            </div>
         </div>
