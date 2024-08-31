@@ -17,7 +17,7 @@ const cats = [
     { id: 4, name: 'Парфюмерия' },
     { id: 5, name: 'Какашки' },
 ];
-const premiumId = 6;  // Добавляем идентификатор для премиум категории
+const premiumId = 6;  // Идентификатор для премиум категории
 
 export const Categories: React.FC<Props> = ({ className }) => {
     const categoryActiveId = useCategoryStore((state) => state.activeId);
@@ -52,15 +52,12 @@ export const Categories: React.FC<Props> = ({ className }) => {
                 <div className={cn('inline-flex gap-1')}></div>
                 <a
                     className={cn(
-                        "flex items-center font-bold h-11 rounded-2xl px-5",
-                        categoryActiveId === premiumId && 'bg-black shadow-md shadow-gray-300 text-white'
+                        "flex items-center font-bold h-11 rounded-2xl px-5 bg-black text-white shadow-md shadow-gray-300"
                     )}
                     onClick={() => handleClick(premiumId)}  // Обработка клика на премиум категории
                 >
                     <Sparkles color='#ffffff' className="h-4 w-4 mr-2 cursor-pointer" strokeWidth={2} />
-                    <button className={categoryActiveId === premiumId ? 'text-white' : 'text-black'}>
-                        {Premium}
-                    </button>
+                    <button className="text-white">{Premium}</button>
                 </a>
             </div>
         </div>
