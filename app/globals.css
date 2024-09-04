@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: auto;
+}
+
+@media screen and (prefects-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+} 
 
 @layer base {
   :root {
