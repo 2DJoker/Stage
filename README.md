@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 used in the project https://vercel.com / for the Postgresql database and linked nextjs to the prisma library
 
+<p><img align="center" src="https://github.com/2DJoker/2DJoker/assets/109986015/942f02bb-b4c5-4aeb-a25e-bbb30468b596"/></p>
