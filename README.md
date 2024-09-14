@@ -30,7 +30,14 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
+![Image alt](https://github.com/2DJoker/Stage/blob/main/Screenshot%202024-09-06%20at%204.02.21%20PM.png)
+
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+used in the project https://vercel.com / for the Postgresql database and linked nextjs to the prisma library
+
+<p><img align="center" src="https://github.com/2DJoker/2DJoker/assets/109986015/942f02bb-b4c5-4aeb-a25e-bbb30468b596"/></p>
